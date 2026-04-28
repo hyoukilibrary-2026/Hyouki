@@ -731,31 +731,12 @@ var KANJI_EXTRAS = {
       label: 'PETUNJUK'
     },
     naritachi_img: {
-      svg: `<svg viewBox="0 0 340 180" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:340px">
-  <defs>
-    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L8,3 z" fill="#8B1A1A"/>
-    </marker>
-  </defs>
-  <!-- Stick figure (gambaran primitif orang dari samping) -->
-  <ellipse cx="62" cy="38" rx="16" ry="18" fill="none" stroke="#222" stroke-width="3"/>
-  <line x1="62" y1="56" x2="62" y2="110" stroke="#222" stroke-width="3"/>
-  <line x1="62" y1="110" x2="38" y2="155" stroke="#222" stroke-width="3"/>
-  <line x1="62" y1="110" x2="88" y2="155" stroke="#222" stroke-width="3"/>
-  <line x1="62" y1="70" x2="32" y2="95" stroke="#222" stroke-width="3"/>
-  <line x1="62" y1="70" x2="92" y2="95" stroke="#222" stroke-width="3"/>
-  <!-- Arrow -->
-  <line x1="120" y1="90" x2="165" y2="90" stroke="#8B1A1A" stroke-width="2.5" marker-end="url(#arr)"/>
-  <!-- 人 kanji large -->
-  <text x="255" y="155" font-family="Noto Serif JP, serif" font-size="120" fill="#3B0000" text-anchor="middle">人</text>
-  <!-- Label -->
-  <text x="62" y="175" font-family="Noto Sans JP, sans-serif" font-size="11" fill="#666" text-anchor="middle">Orang dari samping</text>
-  <text x="255" y="175" font-family="Noto Sans JP, sans-serif" font-size="11" fill="#8B1A1A" text-anchor="middle">人 (hito / jin)</text>
-</svg>`,
-      caption: 'Kanji 人 berasal dari gambar orang yang dilihat dari samping — dua goresan melambangkan dua kaki yang menopang tubuh.'
+      svg: '<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:340px\"><defs><marker id=\"arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L0,6 L8,3 z\" fill=\"#8B1A1A\"/></marker></defs><ellipse cx=\"62\" cy=\"38\" rx=\"14\" ry=\"16\" fill=\"none\" stroke=\"#333\" stroke-width=\"2.5\"/><line x1=\"62\" y1=\"54\" x2=\"62\" y2=\"105\" stroke=\"#333\" stroke-width=\"2.5\"/><line x1=\"62\" y1=\"105\" x2=\"38\" y2=\"150\" stroke=\"#333\" stroke-width=\"2.5\"/><line x1=\"62\" y1=\"105\" x2=\"88\" y2=\"150\" stroke=\"#333\" stroke-width=\"2.5\"/><line x1=\"62\" y1=\"68\" x2=\"32\" y2=\"90\" stroke=\"#333\" stroke-width=\"2.5\"/><line x1=\"62\" y1=\"68\" x2=\"92\" y2=\"90\" stroke=\"#333\" stroke-width=\"2.5\"/><line x1=\"118\" y1=\"88\" x2=\"158\" y2=\"88\" stroke=\"#8B1A1A\" stroke-width=\"2.5\" marker-end=\"url(#arr)\"/><text x=\"255\" y=\"148\" font-family=\"serif\" font-size=\"115\" fill=\"#3B0000\" text-anchor=\"middle\">\u4EBA</text><text x=\"62\" y=\"172\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#666\" text-anchor=\"middle\">Orang dilihat dari samping</text><text x=\"255\" y=\"172\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#8B1A1A\" text-anchor=\"middle\">\u4EBA (hito / jin)</text></svg>',
+      caption: 'Kanji \u4EBA berasal dari gambar orang yang dilihat dari samping \u2014 dua goresan melambangkan dua kaki yang menopang tubuh.'
     }
   }
 };
+
 // ======= KANJI DATA =======
 const KD=[
 {id:1,char:'人',on:'ジン・ニン',kun:'ひと',meaning:'orang / manusia',sc:2,lesson:1,naritachi:'Orang berdiri dari samping — dua goresan membentuk tubuh dan kaki.',mnemonic:'Bayangkan <em>orang</em> berdiri: satu kaki di depan, satu di belakang.',vocab:[{w:'人',r:'ひと',m:'orang'},{w:'アメリカ人',r:'アメリカじん',m:'orang Amerika'}],ex:{sentence:'あの 人（___）は だれですか。',blank:'ひと',hint:'cara baca 人',romaji:'Ano ___ wa dare desu ka?'},qRead:['ひと','かた','もの','めい'],qMean:['orang / manusia','nama','cara / arah','buku'],qKanji:['人','名','方','本']},
